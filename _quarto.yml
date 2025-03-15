@@ -2,16 +2,19 @@ project:
   type: website
 
 website:
-  title: "personal-website"
+  title: "Bryan Mui"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About Me
+      - href: projects.qmd
+        text: Projects
 
 format:
   html:
-    theme: cosmo
+    theme: lux
     css: styles.css
     toc: true
 
