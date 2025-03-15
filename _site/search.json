@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Personal Projects",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Personal Projects\nThese are some of the projects I’ve worked on since coming to UCLA!\n\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nIsland Scrape\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -12,5 +12,19 @@
     "title": "Bryan Mui",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\nLEBROOOOOOOOOOOOOOOOOOOOOOOOOOOOOON"
+  },
+  {
+    "objectID": "projects/island-scrape.html",
+    "href": "projects/island-scrape.html",
+    "title": "Island Scrape",
+    "section": "",
+    "text": "skibi"
   }
 ]

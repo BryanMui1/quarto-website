@@ -1,4 +1,22 @@
 ---
-title: "Projects"
+toc: false
+listing:
+    - id: project-listing
+      contents:
+        - "/projects/*.qmd"
+      sort: false
+      sort-ui: false
+      filter-ui: true
+      type: grid
+      fields:
+        - title
+        - image
+      categories: false
 ---
 
+# Personal Projects
+
+These are some of the projects I've worked on since coming to UCLA!
+
+:::project-listing
+:::
