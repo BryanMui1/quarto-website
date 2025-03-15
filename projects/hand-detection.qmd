@@ -1,0 +1,8 @@
+---
+title: "Hand Detection"
+subtitle: "Multipurpose Object Tracking for Hand Detection" 
+format: html
+image: images/handtrack.png
+---
+
+During my internship with NYU Pathways to AI (09/2023 – 12/2023), I developed a script leveraging a pre-trained Detectron2 classification model to analyze videos featuring hand movements. This project demonstrated the semi-effective tracking of hands within dynamic, real-world contexts, such as DIY YouTube videos. Built with OpenCV2, Detectron2, and Google Colab, this effort reflects my hands-on experience with cutting-edge machine learning tools and object detection frameworks. You can view the project's repository on [GitHub](https://github.com/BryanMui1/HandTracker).

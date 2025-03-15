@@ -1,11 +1,44 @@
 ---
 title: "Bryan Mui"
+about: 
+  template: jolla
+  image: profile-pic.jpg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/BryanMui1
+    - icon: linkedin
+      text: LinkedIn
+      url: "https://linkedin.com/in/bryanmui"
+    - text: Email
+      url: "mailto:bryanmui94582@gmail.com"
+    - text: CV
+      url: "/resume.pdf" 
 ---
 
-This is a Quarto website.
+DOWNLOAD [CV](/resume.pdf)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I am student at the University of California, Los Angeles majoring in Statistics and minoring in Data Science Engineering!
 
-```{r}
-1 + 1
-```
+This past summer I've been graciously give the oportunity to intern at Stiddle, an early stage B2B SaaS company for marketers and ecommerce brands. I worked on developing integrations with their platforms and carving out features. We're a small team that can code features together where everyone has a loose role in meeting our feature and sales goals. 
+
+I'm currently looking for a cool project to pursue or a research program to get into. I am a hopeful believer in Jesus Christ.
+
+## Education:
+
+University of California, Los Angeles, June 2026, B.S. Statistics and Data Science, Data Engineering Minor  
+GPA: 3.262/4.00  
+Coursework: C++, Discrete Math, Data Analysis and Regression,   Statistics Theory, Algorithms, x86 Assembly, Probability  
+Programming Languages: JavaScript, HTML, CSS, React, NestJS, redux, MUI, mySQL, mongoDB, Python, R, Git, Linux
+
+## Experience:
+
+Software Engineering Intern (Stiddle, June–September 2024): Developed scalable integrations and expanded platform functionality to reach 5 million brands using NestJS, React, and JavaScript.
+
+Machine Learning Research Program (NYU Pathways to AI, June–December 2023): Explored computer vision projects, ML models, and optimization strategies as one of 10 Google DeepMind-funded participants.
+
+Volunteer (RobotGarden, June 2020–September 2022): Built tools, repaired machinery, and advanced autonomous driving rover projects using RC cars and drone controllers.
+
+Soccer Referee (California North Referee Association, January 2018–December 2019): Officiated gold-level youth soccer games, ensuring fair play and enforcing rules with thorough training.
+
+

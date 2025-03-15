@@ -11,10 +11,11 @@ listing:
       fields:
         - title
         - image
+        - subtitle
       categories: false
 ---
 
-# Personal Projects
+# Projects
 
 These are some of the projects I've worked on since coming to UCLA!
 

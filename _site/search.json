@@ -2,16 +2,44 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Personal Projects",
+    "title": "Projects",
     "section": "",
-    "text": "Personal Projects\nThese are some of the projects I’ve worked on since coming to UCLA!\n\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nIsland Scrape\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Projects\nThese are some of the projects I’ve worked on since coming to UCLA!\n\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nEarBloom: A Bio-Inspired Intersection of High-Fidelity Hearing Protection and Fashion Technology\n\n\nResearch Paper on Morphable Soft Robotics\n\n\n\n\n\n\n\n\n\n\n\n\n\nHand Detection\n\n\nMultipurpose Object Tracking for Hand Detection\n\n\n\n\n\n\n\n\n\n\n\n\n\nIsland Scrape\n\n\nWeb scraping with Python Selenium\n\n\n\n\n\n\n\n\n\n\n\n\n\nWatchCircle for LA 2028\n\n\nSocial Media for the AWS Slalom Innovation Challenge\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Bryan Mui",
+    "objectID": "projects/island-scrape.html",
+    "href": "projects/island-scrape.html",
+    "title": "Island Scrape",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Project Link\nisland-scrape is a scraping tool built for the statistical simulation website The Islands, it is a python script that allows researchers to automate sample collection. Collecting research samples from people:\nMap of the entire Island: There’s a lot of cities and people!"
+  },
+  {
+    "objectID": "projects/island-scrape.html#features-include",
+    "href": "projects/island-scrape.html#features-include",
+    "title": "Island Scrape",
+    "section": "Features include:",
+    "text": "Features include:\n\nsample.py - automated sample choosing and collection\ncollect.py - automated collection of experiment results\ncache.py - caching script that makes data collection exponentially faster"
+  },
+  {
+    "objectID": "projects/island-scrape.html#instructions",
+    "href": "projects/island-scrape.html#instructions",
+    "title": "Island Scrape",
+    "section": "Instructions:",
+    "text": "Instructions:\n\nclone this respository\n\ninstall dependencies(requirements.txt) or manually installing the requirements listed here:\n\n\npip install selenium\npip install numpy\npip install pandas\nYou also will need Google Chrome installed on the pc\n\ncreate a passwords.config file(look at sample-passwords.config for instructions)\ngenerate a cache file by running cache.py\n\npython cache.py\nthe file should be stored in a binary file called cache\n\nIn sample.py edit the ##TASK## code for your specific size, and edit the SAMPLE_SIZE constant and run it using:\n\npython sample.py\nOutputs a sample_index csv file that notes the indices of the people that you sampled\n\ncollect the data by editing the data collection script collect.py. change the ###DO SOMETHING### block to your choosing and run it using:\n\npython collect.py\nVisits every person sampled, collects the data and outputs it into a csv file\nThe data will be outputed into a file named “data1.csv” or can be chaneged to your choosing"
+  },
+  {
+    "objectID": "projects/island-scrape.html#outlines-of-this-project",
+    "href": "projects/island-scrape.html#outlines-of-this-project",
+    "title": "Island Scrape",
+    "section": "Outlines of this project:",
+    "text": "Outlines of this project:\n\nscrape.py: building block instances that can navigate through the page\niter.py: navigates through a population on the islan and performs some task(that you implement)\nscrath.py: development file for temporary code\nlogin.py: building block for logging into the website\ncache.py, sample.py, sample.py finalized working scripts for fast sampling and data collection\niter.py: basic iteration instance over all cities\nscrape.py: used for testing one instance of scraping your data collection task\ntest.py: a combination of scrape.py and iter.py\n\nPotential updates(in the future): + A script that navigates through one’s island contact list + A script that adds all your samples to a contact list + A script that allows randomization of experiments\nThis project was built using Selenium and Python3, and works with the integrated Chrome Web Driver"
+  },
+  {
+    "objectID": "projects/ear-bloom.html",
+    "href": "projects/ear-bloom.html",
+    "title": "EarBloom: A Bio-Inspired Intersection of High-Fidelity Hearing Protection and Fashion Technology",
+    "section": "",
+    "text": "In collaboration with Ph.D. candidate Yin Yu, I developed EarBloom, a fashionable wearable prototype designed to prevent noise-induced hearing loss, during a research project (06/2021 – 07/2021). The project involved creating detailed CAD models, conducting functional simulations in Rhino 3D, and performing material stress tests in Fusion 360 to ensure durability and feasibility. The research findings were presented at a faculty seminar and later published in the Journal of Student Research (September 2021). Discover more about the project here."
   },
   {
     "objectID": "about.html",
@@ -21,10 +49,38 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\nLEBROOOOOOOOOOOOOOOOOOOOOOOOOOOOOON"
   },
   {
-    "objectID": "projects/island-scrape.html",
-    "href": "projects/island-scrape.html",
-    "title": "Island Scrape",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bryan Mui",
     "section": "",
-    "text": "skibi"
+    "text": "DOWNLOAD CV\nI am student at the University of California, Los Angeles majoring in Statistics and minoring in Data Science Engineering!\nThis past summer I’ve been graciously give the oportunity to intern at Stiddle, an early stage B2B SaaS company for marketers and ecommerce brands. I worked on developing integrations with their platforms and carving out features. We’re a small team that can code features together where everyone has a loose role in meeting our feature and sales goals.\nI’m currently looking for a cool project to pursue or a research program to get into. I am a hopeful believer in Jesus Christ."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Bryan Mui",
+    "section": "Education:",
+    "text": "Education:\nUniversity of California, Los Angeles, June 2026, B.S. Statistics and Data Science, Data Engineering Minor\nGPA: 3.262/4.00\nCoursework: C++, Discrete Math, Data Analysis and Regression, Statistics Theory, Algorithms, x86 Assembly, Probability\nProgramming Languages: JavaScript, HTML, CSS, React, NestJS, redux, MUI, mySQL, mongoDB, Python, R, Git, Linux"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Bryan Mui",
+    "section": "Experience:",
+    "text": "Experience:\nSoftware Engineering Intern (Stiddle, June–September 2024): Developed scalable integrations and expanded platform functionality to reach 5 million brands using NestJS, React, and JavaScript.\nMachine Learning Research Program (NYU Pathways to AI, June–December 2023): Explored computer vision projects, ML models, and optimization strategies as one of 10 Google DeepMind-funded participants.\nVolunteer (RobotGarden, June 2020–September 2022): Built tools, repaired machinery, and advanced autonomous driving rover projects using RC cars and drone controllers.\nSoccer Referee (California North Referee Association, January 2018–December 2019): Officiated gold-level youth soccer games, ensuring fair play and enforcing rules with thorough training."
+  },
+  {
+    "objectID": "projects/hand-detection.html",
+    "href": "projects/hand-detection.html",
+    "title": "Hand Detection",
+    "section": "",
+    "text": "During my internship with NYU Pathways to AI (09/2023 – 12/2023), I developed a script leveraging a pre-trained Detectron2 classification model to analyze videos featuring hand movements. This project demonstrated the semi-effective tracking of hands within dynamic, real-world contexts, such as DIY YouTube videos. Built with OpenCV2, Detectron2, and Google Colab, this effort reflects my hands-on experience with cutting-edge machine learning tools and object detection frameworks. You can view the project’s repository on GitHub."
+  },
+  {
+    "objectID": "projects/watch-circle.html",
+    "href": "projects/watch-circle.html",
+    "title": "WatchCircle for LA 2028",
+    "section": "",
+    "text": "As part of the AWS + Slalom Innovation Challenge (03/2023 – 06/2023), I developed WatchCircle, a social media platform tailored for the 2028 LA Olympics, aimed at boosting user engagement and viewership. The project included designing a robust tech framework using AWS database technologies to ensure user data protection. Additionally, I pitched a Figma app prototype and a comprehensive business model to the official LA 2028 Olympics board of representatives, combining technological innovation with strategic vision. Explore the project here."
   }
 ]

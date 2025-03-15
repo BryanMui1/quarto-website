@@ -1,0 +1,10 @@
+---
+title: "EarBloom: A Bio-Inspired Intersection of High-Fidelity Hearing Protection and Fashion Technology"
+subtitle: "Research Paper on Morphable Soft Robotics" 
+format: html
+image: images/earbloom.png
+---
+
+![](images/earbloom.png)
+
+In collaboration with Ph.D. candidate Yin Yu, I developed EarBloom, a fashionable wearable prototype designed to prevent noise-induced hearing loss, during a research project (06/2021 – 07/2021). The project involved creating detailed CAD models, conducting functional simulations in Rhino 3D, and performing material stress tests in Fusion 360 to ensure durability and feasibility. The research findings were presented at a faculty seminar and later published in the Journal of Student Research (September 2021). Discover more about the project [here](https://www.jsr.org/hs/index.php/path/article/view/2190).

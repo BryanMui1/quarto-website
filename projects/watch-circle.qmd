@@ -1,0 +1,10 @@
+---
+title: "WatchCircle for LA 2028"
+subtitle: "Social Media for the AWS Slalom Innovation Challenge" 
+format: html
+image: images/watchcircle.png
+---
+
+![](images/watchcircle2.png)
+
+As part of the AWS + Slalom Innovation Challenge (03/2023 – 06/2023), I developed WatchCircle, a social media platform tailored for the 2028 LA Olympics, aimed at boosting user engagement and viewership. The project included designing a robust tech framework using AWS database technologies to ensure user data protection. Additionally, I pitched a Figma app prototype and a comprehensive business model to the official LA 2028 Olympics board of representatives, combining technological innovation with strategic vision. Explore the project [here](https://tinyurl.com/4zmt9x58).

@@ -2,7 +2,10 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/projects/island-scrape.html"
+      "/projects/ear-bloom.html",
+      "/projects/hand-detection.html",
+      "/projects/island-scrape.html",
+      "/projects/watch-circle.html"
     ]
   }
 ]

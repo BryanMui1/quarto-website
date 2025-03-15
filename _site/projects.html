@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-image','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
@@ -150,10 +150,6 @@ window.Quarto = {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
@@ -178,8 +174,8 @@ window.Quarto = {
 
 
 
-<section id="personal-projects" class="level1">
-<h1>Personal Projects</h1>
+<section id="projects" class="level1">
+<h1>Projects</h1>
 <p>These are some of the projects I’ve worked on since coming to UCLA!</p>
 <div class="project-listing">
 
@@ -197,7 +193,41 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1742002066848" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1742009265171" data-listing-reading-time-sort="1" data-listing-word-count-sort="79">
+<a href="./projects/ear-bloom.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/images/earbloom.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+EarBloom: A Bio-Inspired Intersection of High-Fidelity Hearing Protection and Fashion Technology
+</h5>
+<div class="card-subtitle listing-subtitle">
+Research Paper on Morphable Soft Robotics
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1742009333790" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+<a href="./projects/hand-detection.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/images/handtrack.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Hand Detection
+</h5>
+<div class="card-subtitle listing-subtitle">
+Multipurpose Object Tracking for Hand Detection
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1742009068090" data-listing-reading-time-sort="2" data-listing-word-count-sort="364">
 <a href="./projects/island-scrape.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -207,6 +237,26 @@ window.Quarto = {
 <h5 class="no-anchor card-title listing-title">
 Island Scrape
 </h5>
+<div class="card-subtitle listing-subtitle">
+Web scraping with Python Selenium
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1742009257532" data-listing-reading-time-sort="1" data-listing-word-count-sort="80">
+<a href="./projects/watch-circle.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/images/watchcircle.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+WatchCircle for LA 2028
+</h5>
+<div class="card-subtitle listing-subtitle">
+Social Media for the AWS Slalom Innovation Challenge
+</div>
 </div>
 </div>
 </a>
@@ -637,6 +687,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Bryan Mui 2025</p>
+</div>
+  </div>
+</footer>
 
 
 

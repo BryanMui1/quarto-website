@@ -6,11 +6,12 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - href: about.qmd
         text: About Me
       - href: projects.qmd
         text: Projects
+        
+  page-footer: 
+    right: "Bryan Mui 2025"
 
 format:
   html:
@@ -18,5 +19,6 @@ format:
     css: styles.css
     toc: true
 
-
+execute: 
+  freeze: auto
 

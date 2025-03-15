@@ -90,10 +90,6 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
@@ -111,8 +107,16 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#features-include" id="toc-features-include" class="nav-link active" data-scroll-target="#features-include">Features include:</a></li>
+  <li><a href="#instructions" id="toc-instructions" class="nav-link" data-scroll-target="#instructions">Instructions:</a></li>
+  <li><a href="#outlines-of-this-project" id="toc-outlines-of-this-project" class="nav-link" data-scroll-target="#outlines-of-this-project">Outlines of this project:</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -120,6 +124,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Island Scrape</h1>
+<p class="subtitle lead">Web scraping with Python Selenium</p>
 </div>
 
 
@@ -136,9 +141,66 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>skibi</p>
+<p><a href="https://github.com/BryanMui1/island-scrape">Project Link</a></p>
+<p>island-scrape is a scraping tool built for the statistical simulation website <a href="https://islands.smp.uq.edu.au/login.php">The Islands</a>, it is a python script that allows researchers to automate sample collection. Collecting research samples from people:<br>
+<img src="images/island.png" class="img-fluid" alt="Collecting research samples from people"></p>
+<p>Map of the entire Island: There’s a lot of cities and people!<br>
+<img src="images/island2.png" class="img-fluid" alt="Map of the entire Island: There’s a lot of cities and people!"></p>
+<section id="features-include" class="level2">
+<h2 class="anchored" data-anchor-id="features-include">Features include:</h2>
+<ul>
+<li>sample.py - automated sample choosing and collection</li>
+<li>collect.py - automated collection of experiment results</li>
+<li>cache.py - caching script that makes data collection exponentially faster</li>
+</ul>
+</section>
+<section id="instructions" class="level2">
+<h2 class="anchored" data-anchor-id="instructions">Instructions:</h2>
+<ol type="1">
+<li>clone this respository<br>
+</li>
+<li>install dependencies(requirements.txt) or manually installing the requirements listed here:<br>
+</li>
+</ol>
+<pre><code>pip install selenium
+pip install numpy
+pip install pandas</code></pre>
+<p>You also will need Google Chrome installed on the pc</p>
+<ol start="3" type="1">
+<li>create a passwords.config file(look at sample-passwords.config for instructions)</li>
+<li>generate a cache file by running cache.py</li>
+</ol>
+<pre><code>python cache.py</code></pre>
+<p>the file should be stored in a binary file called <strong>cache</strong></p>
+<ol start="5" type="1">
+<li>In sample.py edit the ##TASK## code for your specific size, and edit the SAMPLE_SIZE constant and run it using:</li>
+</ol>
+<pre><code>python sample.py</code></pre>
+<p>Outputs a <strong>sample_index</strong> csv file that notes the indices of the people that you sampled</p>
+<ol start="6" type="1">
+<li>collect the data by editing the data collection script collect.py. change the ###DO SOMETHING### block to your choosing and run it using:</li>
+</ol>
+<pre><code>python collect.py</code></pre>
+<p>Visits every person sampled, collects the data and outputs it into a csv file</p>
+<p>The data will be outputed into a file named <strong>“data1.csv”</strong> or can be chaneged to your choosing</p>
+</section>
+<section id="outlines-of-this-project" class="level2">
+<h2 class="anchored" data-anchor-id="outlines-of-this-project">Outlines of this project:</h2>
+<ul>
+<li>scrape.py: building block instances that can navigate through the page</li>
+<li>iter.py: navigates through a population on the islan and performs some task(that you implement)</li>
+<li>scrath.py: development file for temporary code</li>
+<li>login.py: building block for logging into the website</li>
+<li><strong>cache.py, sample.py, sample.py</strong> finalized working scripts for <em>fast</em> sampling and data collection</li>
+<li>iter.py: basic iteration instance over all cities</li>
+<li>scrape.py: used for testing one instance of scraping your data collection task</li>
+<li>test.py: a combination of scrape.py and iter.py</li>
+</ul>
+<p>Potential updates(in the future): + A script that navigates through one’s island contact list + A script that adds all your samples to a contact list + A script that allows randomization of experiments</p>
+<p><strong>This project was built using Selenium and Python3, and works with the integrated Chrome Web Driver</strong></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -562,6 +624,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Bryan Mui 2025</p>
+</div>
+  </div>
+</footer>
 
 
 
